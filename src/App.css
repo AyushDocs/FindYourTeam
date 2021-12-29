@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+/** @format */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	display: inline-block;
+}
+.app {
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+	overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.find-search-container {
+	/* background-color: hsl(210, 11%, 20%); */
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin: 25px 0;
+	padding: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.find-search-container > button {
+	margin-right: 30px;
+	border-radius: 50px;
+	padding: 5px 10px;
+	border: none;
+	font-size: 1.25rem;
+	font-weight: 800;
+	color: #eee;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.find-search-container > button:hover {
+	background-color: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.find-one {
+	background: linear-gradient(to left, rgba(255, 255, 0, 0.253), blue);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.find-team {
+	background: linear-gradient(to right, rgba(255, 255, 0, 0.26), red);
+}
+.cards-container {
+	height: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
 }
