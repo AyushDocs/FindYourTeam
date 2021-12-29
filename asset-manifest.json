@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FindYourTeam/static/css/main.ccf37b15.css",
+    "main.js": "/FindYourTeam/static/js/main.9caf7dc3.js",
+    "static/js/787.070db070.chunk.js": "/FindYourTeam/static/js/787.070db070.chunk.js",
+    "index.html": "/FindYourTeam/index.html",
+    "main.ccf37b15.css.map": "/FindYourTeam/static/css/main.ccf37b15.css.map",
+    "main.9caf7dc3.js.map": "/FindYourTeam/static/js/main.9caf7dc3.js.map",
+    "787.070db070.chunk.js.map": "/FindYourTeam/static/js/787.070db070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf37b15.css",
+    "static/js/main.9caf7dc3.js"
+  ]
+}
